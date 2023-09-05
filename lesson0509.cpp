@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-void offPrint(string str)
+void number(int a, int b)
 {
-	cout << str << endl;
+	cout << a * b << endl;
 }
 
 
 int main() {
 
-	offPrint("Hello world!");
+	number(6, 5);
 }
